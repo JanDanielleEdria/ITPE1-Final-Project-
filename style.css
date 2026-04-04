@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+}
+
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background: #ee4d2d;
+    color: white;
+}
+
+
+.header input {
+    width: 60%;
+    padding: 6px;
+    border: none;
+    border-radius: 3px;
+}
+
+
+.cart-box {
+    background: #ee4d2d;
+    padding: 10px; 
+}
+
+
+button {
+    background: orange;
+    padding: 3px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    transform: scale(1.1);
+    
+}
+
+
+.main-image {
+    position: relative;
+}
+
+
+.main-image img {
+    width: 100%;
+    display: block;
+}
+
+
+.badge {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background: #00a859;
+    color: white;
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 3px;
+}
+
+
+.variations {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    background: white;
+}
+
+
+.variations img {
+    width: 60px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+
+.product-info {
+    background: orange;
+    padding: 15px;
+}
+
+
+.into {
+    background: white;
+    padding: 15px;
+    color: teal;
+}
+
+
+.price {
+    color: #ee4d2d;
+    font-size: 25px;
+    margin: 5px 0;
+}
+
+
+.price span {
+    font-size: 12px;
+    color: green;
+}
+
+
+.sold {
+    color: blue;
+}
+
+
+.ratings {
+    background: white;
+    margin-top: 10px;
+    padding: 15px;
+}
+
+
+.ratings img {
+    width: 120px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+
+.bottom-bar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+}
+
+
+.bottom-bar button {
+    flex: 1;
+    padding: 15px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.chat { background: #00a859; color: white; }
+
+.cart { background: #26a69a; color: white; }
+
+.buy { background: #ee4d2d; color: white; }
